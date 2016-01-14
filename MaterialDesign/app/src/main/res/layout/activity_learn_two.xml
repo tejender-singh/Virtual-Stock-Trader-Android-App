@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8D5B8"
+    tools:context="com.example.jeevika.materialdesign.LearnTwo">
+
+    <TextView android:text="PAGE 2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="How stock prices change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#B8D5B8"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:padding="20dp"
+
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" /> "/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView2">
+
+        <TextView android:text="
+
+Stock prices change every day as a result of market forces. By this we mean that share prices change because of supply and demand. If more people want to buy a stock (demand) than sell it (supply), then the price moves up. Conversely, if more people wanted to sell a stock than buy it, there would be greater supply than demand, and the price would fall.\n
+
+
+    Understanding supply and demand is easy. What is difficult to comprehend is what makes people like a particular stock and dislike another stock. This comes down to figuring out what news is positive for a company and what news is negative. There are many answers to this problem and just about any investor you ask has their own ideas and strategies.
+ \n   The important things to grasp about this subject are the following: \n
+
+\b 1. At the most fundamental level, supply and demand in the market determines stock price.\n
+2. Price times the number of shares outstanding (market capitalization) is the value of a company. Comparing just the share price of two companies is meaningless.\n
+3. Theoretically, earnings are what affect investors' valuation of a company, but there are other indicators that investors use to predict stock price. Remember, it is investors' sentiments, attitudes and expectations that ultimately affect stock prices.\n
+4. There are many theories that try to explain the way stock prices move the way they do. Unfortunately, there is no one theory that can explain everything.\n
+
+                        "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

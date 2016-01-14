@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#B8D5B8"
+    tools:context="com.example.jeevika.materialdesign.LearnFour">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debt vs. Equity"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroller1"
+        android:layout_below="@+id/textView7">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:text="Why does a company issue stock? Why would the founders share the profits with thousands of people when they could keep profits to themselves? The reason is that at some point every company needs to raise money. To do this, companies can either borrow it from somebody or raise it by selling part of the company, which is known as issuing stock. A company can borrow by taking a loan from a bank or by issuing bonds. Both methods fit under the umbrella of debt financing. On the other hand, issuing stock is called equity financing. Issuing stock is advantageous for the company because it does not require the company to pay back the money or make interest payments along the way. All that the shareholders get in return for their money is the hope that the shares will someday be worth more than what they paid for them. The first sale of a stock, which is issued by the private company itself, is called the initial public offering (IPO). \n
+
+It is important that you understand the distinction between a company financing through debt and financing through equity. When you buy a debt investment such as a bond, you are guaranteed the return of your money (the principal) along with promised interest payments. This isn't the case with an equity investment. By becoming an owner, you assume the risk of the company not being successful - just as a small business owner isn't guaranteed a return, neither is a shareholder. As an owner, your claim on assets is less than that of creditors. This means that if a company goes bankrupt and liquidates, you, as a shareholder, don't get any money until the banks and bondholders have been paid out; we call this absolute priority. Shareholders earn a lot if a company is successful, but they also stand to lose their entire investment if the company isn't successful. "
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView7" />
+    </ScrollView>
+</RelativeLayout>

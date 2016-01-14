@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00897b</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#0040ff</color>
+    <color name="colorAccent">#FF6501</color>
+    <color name="second_grey">#ff999999</color>
+    <color name="card_white">#ffffffff</color>
+    <color name="card_shadow">#8c666666</color>
+    <color name="loss">#B80C09</color>
+    <color name="profit">#56E39F</color>
+</resources>

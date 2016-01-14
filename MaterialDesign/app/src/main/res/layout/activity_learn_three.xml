@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#B8D5B8"
+    tools:context="com.example.jeevika.materialdesign.LearnThree">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Definition of a Stock"
+        android:id="@+id/textView3"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plain and simple, stock is a share in the ownership of a company. Stock represents a claim on the company's assets and earnings. As you acquire more stock, your ownership stake in the company becomes greater. Whether you say shares, equity, or stock, it all means the same thing."
+            android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Being an Owner"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroller"
+        android:layout_below="@+id/textView5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Holding a company's stock means that you are one of the many owners (shareholders) of a company and, as such, you have a claim (albeit usually very small) to everything the company owns. Yes, this means that technically you own a tiny sliver of every piece of furniture, every trademark, and every contract of the company. As an owner, you are entitled to your share of the company&apos;s earnings as well as any voting rights attached to the stock.\n
+A stock is represented by a stock certificate. This is a fancy piece of paper that is proof of your ownership. In today's computer age, you won't actually get to see this document because your brokerage keeps these records electronically, which is also known as holding shares. This is done to make the shares easier to trade. In the past, when a person wanted to sell his or her shares, that person physically took the certificates down to the brokerage. Now, trading with a click of the mouse or a phone call makes life easier for everybody.\n
+Being a shareholder of a public company does not mean you have a say in the day-to-day running of the business. Instead, one vote per share to elect the board of directors at annual meetings is the extent to which you have a say in the company. For instance, being a Microsoft shareholder doesn't mean you can call up Bill Gates and tell him how you think the company should be run. In the same line of thinking, being a shareholder of Anheuser Busch doesn't mean you can walk into the factory and grab a free case of Bud Light!\n
+The management of the company is supposed to increase the value of the firm for shareholders. If this doesn't happen, the shareholders can vote to have the management removed, at least in theory. In reality, individual investors like you and I don't own enough shares to have a material influence on the company. It's really the big boys like large institutional investors and billionaire entrepreneurs who make the decisions. \n
+For ordinary shareholders, not being able to manage the company isn't such a big deal. After all, the idea is that you don't want to have to work to make money, right? The importance of being a shareholder is that you are entitled to a portion of the company's profits and have a claim on assets. Profits are sometimes paid out in the form of dividends. The more shares you own, the larger the portion of the profits you get. Your claim on assets is only relevant if a company goes bankrupt. In case of liquidation, you'll receive what's left after all the creditors have been paid. This last point is worth repeating: the importance of stock ownership is your claim on assets and earnings. Without this, the stock wouldn't be worth the paper it's printed on.\n
+
+Another extremely important feature of stock is its limited liability, which means that, as an owner of a stock, you are not personally liable if the company is not able to pay its debts. Other companies such as partnerships are set up so that if the partnership goes bankrupt the creditors can come after the partners (shareholders) personally and sell off their house, car, furniture, etc. Owning stock means that, no matter what, the maximum value you can lose is the value of your investment. Even if a company of which you are a shareholder goes bankrupt, you can never lose your personal assets."
+         />
+
+    </ScrollView>
+</RelativeLayout>

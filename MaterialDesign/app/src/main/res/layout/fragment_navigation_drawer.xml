@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            cardview:cardElevation="0dp"
+            cardview:cardCornerRadius="5dp"
+            android:id="@+id/cv3"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            >
+
+        <ImageButton
+            android:id="@+id/homeimage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:src="@drawable/ic_profile"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="false" />
+</android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/nav_header_container" />
+
+</RelativeLayout>

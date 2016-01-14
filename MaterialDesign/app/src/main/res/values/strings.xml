@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<resources>
+
+    <string name="draweropen">Open</string>
+
+    <string name="drawerclose">Close</string>
+
+    <string name="app_name">Virtua Stock</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_search">Search</string>
+
+    <string name="drawer_open">Open</string>
+
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">HOME</string>
+
+    <string name="nav_item_friends">PORTFOLIO</string>
+
+    <string name="nav_item_notifications">LEARN</string>
+
+    <string name="nav_item_trade">TRADE</string>
+
+    <!-- navigation drawer item labels -->
+
+
+
+    -<string-array name="nav_drawer_labels">
+
+    <item>@string/nav_item_home</item>
+
+    <item>@string/nav_item_friends</item>
+
+    <item>@string/nav_item_notifications</item>
+
+    <item>@string/nav_item_trade</item>
+
+</string-array>
+
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_messages">C</string>
+
+    <string name="title_friends">B</string>
+
+    <string name="title_home">A</string>
+
+    <string name="title_trade">Trade</string>
+
+    <string name="title_activity_help">Help</string>
+
+    <string name="title_activity_version">Version</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_login">Login</string>
+
+    <string name="title_activity_splash">Splash</string>
+
+    <string name="title_activity_learn">LearnActivity</string>
+
+    <string name="title_section1">Section 1</string>
+
+    <string name="title_section2">Section 2</string>
+
+    <string name="title_section3">Section 3</string>
+
+    <string name="title_activity_learn_one">LearnOne</string>
+
+    <string name="title_activity_learn_two">LearnTwo</string>
+
+    <string name="title_activity_learn_three">LearnThree</string>
+
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <string name="title_activity_register_user">RegisterUser</string>
+
+    <string name="title_activity_sign_up_confirm">SignUpConfirm</string>
+
+    <string name="title_activity_trade">Trade</string>
+
+    <string name="title_activity_learn_four">LearnFour</string>
+
+    <string name="title_activity_learn_five">LearnFive</string>
+
+    <string name="title_activity_learn_six">LearnSix</string>
+
+    <string name="title_activity_learn_seven">LearnSeven</string>
+
+    <string name="title_activity_before_login">BeforeLogin</string>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>
+

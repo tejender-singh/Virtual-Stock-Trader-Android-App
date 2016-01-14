@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#B8D5B8"
+    tools:context="com.example.jeevika.materialdesign.LearnSeven">
+
+    <TextView android:text="Short Selling" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView12" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroller2"
+        android:layout_below="@+id/textView12">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Short selling is the selling of a stock that the seller doesn't own. More specifically, a short sale is the sale of a security that isn't owned by the seller, but that is promised to be delivered. That may sound confusing, but it's actually a simple concept. (To learn more, read Benefit From Borrowed Securities.)\n
+
+        Still with us? Here's the skinny: when you short sell a stock, your broker will lend it to you. The stock will come from the brokerage's own inventory, from another one of the firm's customers, or from another brokerage firm. The shares are sold and the proceeds are credited to your account. Sooner or later, you must close the short by buying back the same number of shares (called covering) and returning them to your broker. If the price drops, you can buy back the stock at the lower price and make a profit on the difference. If the price of the stock rises, you have to buy it back at the higher price, and you lose money.\n
+
+        Most of the time, you can hold a short for as long as you want, although interest is charged on margin accounts, so keeping a short sale open for a long time will cost more However, you can be forced to cover if the lender wants the stock you borrowed back. Brokerages can't sell what they don't have, so yours will either have to come up with new shares to borrow, or you'll have to cover. This is known as being called away. It doesn't happen often, but is possible if many investors are short selling a particular security.\n
+
+        Because you don't own the stock you're short selling (you borrowed and then sold it), you must pay the lender of the stock any dividends or rights declared during the course of the loan. If the stock splits during the course of your short, you'll owe twice the number of shares at half the price."/>
+</ScrollView>
+</RelativeLayout>

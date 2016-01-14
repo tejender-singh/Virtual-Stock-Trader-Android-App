@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context="activity.DrawerRight">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:layout_margin="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:src="@drawable/forbes"
+        android:layout_below="@+id/nav_header_container"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_margin="7dp"
+        android:src="@drawable/dna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButton1" />
+
+    <ImageButton
+        android:layout_margin="7dp"
+        android:src="@drawable/ft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:layout_margin="7dp"
+        android:src="@drawable/outlook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_below="@+id/imageButton3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

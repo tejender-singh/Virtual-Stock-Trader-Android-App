@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    >
+
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="50dp"
+    android:paddingRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="20dp"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0A2E36"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+    <TextView
+        android:id="@+id/portfoliotv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NTPC"
+        android:textSize="27dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_weight="50"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="50
+    ">
+
+    <TextView
+        android:id="@+id/portfoliotv2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. of stoks: 10"
+        android:textSize="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/cardview_light_background"/>
+    <TextView
+        android:id="@+id/portfoliotv3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Price: 150.0"
+        android:textSize="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/cardview_light_background"/>
+    <TextView
+        android:id="@+id/portfoliotv4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Price: 160.0"
+        android:textSize="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/cardview_light_background"/>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Profit/Loss: "
+    android:textSize="20dp"
+    android:gravity="left"
+    android:textColor="@color/cardview_light_background"/>
+
+    />
+    <TextView
+        android:id="@+id/portfoliotv5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100.0"
+        android:textSize="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/cardview_light_background"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profit/Loss% :"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="@color/cardview_light_background"/>
+
+        />
+
+    <TextView
+        android:id="@+id/portfoliotv6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.0%"
+        android:textSize="20dp"
+        android:gravity="left"
+
+        android:textColor="@color/cardview_light_background"/>
+        </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

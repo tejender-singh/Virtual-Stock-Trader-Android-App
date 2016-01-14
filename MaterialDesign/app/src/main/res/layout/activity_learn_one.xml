@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8D5B8"
+    tools:context="com.example.jeevika.materialdesign.LearnOne">
+    <TextView
+        android:text="How To Trade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#B8D5B8"
+        android:padding="20dp"
+        android:layout_alignLeft="@+id/scrollView"
+        android:layout_alignStart="@+id/scrollView"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:textSize="20dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView2">
+
+    <TextView android:text="
+Most stocks are traded on exchanges, which are places where buyers and sellers meet and decide on a price. Some exchanges are physical locations where transactions are carried out on a trading floor. You've probably seen pictures of a trading floor, in which traders are wildly throwing their arms up, waving, yelling, and signaling to each other. The other type of exchange is virtual, composed of a network of computers where trades are made electronically.\n
+
+
+    The purpose of a stock market is to facilitate the exchange of securities between buyers and sellers, reducing the risks of investing. Just imagine how difficult it would be to sell shares if you had to call around the neighborhood trying to find a buyer. Really, a stock market is nothing more than a super-sophisticated farmers' market linking buyers and sellers.\n
+
+    Before we go on, we should distinguish between the primary market and the secondary market. The primary market is where securities are created (by means of an IPO) while, in the secondary market, investors trade previously-issued securities without the involvement of the issuing-companies. The secondary market is what people are referring to when they talk about the stock market. It is important to understand that the trading of a company's stock does not directly involve that company.\n
+
+
+                        "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true" />
+
+</ScrollView>
+</RelativeLayout>

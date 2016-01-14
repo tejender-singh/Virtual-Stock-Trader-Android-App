@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.jeevika.myhelper.Help_1"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/helpback">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/home"
+            android:fitsSystemWindows="true"
+            />
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            cardview:cardElevation="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"
+            cardview:cardCornerRadius="5dp"
+            android:id="@+id/cv6"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textColor="#0A2E36"
+                android:id="@+id/hometv2"
+                android:text="The Home Fragment provides information on the Real Time Stocks provided in the NSE Stock Index."
+                android:paddingLeft="12dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
